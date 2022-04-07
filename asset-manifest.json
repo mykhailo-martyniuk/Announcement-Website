@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Announcement-Website/static/css/main.ef792f18.css",
+    "main.js": "/Announcement-Website/static/js/main.0903d129.js",
+    "index.html": "/Announcement-Website/index.html",
+    "main.ef792f18.css.map": "/Announcement-Website/static/css/main.ef792f18.css.map",
+    "main.0903d129.js.map": "/Announcement-Website/static/js/main.0903d129.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef792f18.css",
+    "static/js/main.0903d129.js"
+  ]
+}
