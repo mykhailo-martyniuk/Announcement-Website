@@ -16,7 +16,6 @@ const EditPage = () => {
     state.announcements.data.find((el) => el.id.toString() === id)
   );
   const announcements = useSelector((state) => state.announcements.data);
-  console.log('ddd', announcements, 'founded', announcement);
 
   return (
     <>

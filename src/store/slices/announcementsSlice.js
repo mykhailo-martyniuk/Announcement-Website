@@ -16,12 +16,10 @@ export const announcementsSlice = createSlice({
           dateAdded: new Date(Date.now()).toDateString(),
           id: state.data.length + 2,
         });
-        console.log('success');
       }
     },
 
     loadAnnouncements: (state) => {
-      console.log('fff', fetchAnnouncement());
       state.data = fetchAnnouncement();
     },
 
@@ -33,7 +31,6 @@ export const announcementsSlice = createSlice({
     },
 
     deleteAnnouncement: (state, action) => {
-      console.log(action.payload);
       state.data = state.data.filter(
         (el) => el.id.toString() !== action.payload.toString()
       );
